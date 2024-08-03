@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:background="#561c24"
+        android:gravity="center"
+        android:text="@string/Accounting"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:background="#561c24"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/menu_icon1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/house"
+            android:tint="@android:color/white"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:contentDescription="House"
+            tools:ignore="UseAppTint"/>
+
+        <ImageView
+            android:id="@+id/menu_icon2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/book"
+            android:tint="@android:color/white"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:contentDescription="Book"
+            tools:ignore="UseAppTint"/>
+
+        <ImageView
+            android:id="@+id/menu_icon3"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/person"
+            android:tint="@android:color/white"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:contentDescription="Person"
+            tools:ignore="UseAppTint"/>
+
+        <ImageView
+            android:id="@+id/menu_icon4"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/gear"
+            android:tint="@android:color/white"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:contentDescription="Gear"
+            tools:ignore="UseAppTint"/>
+
+    </LinearLayout>
+
+</LinearLayout>
