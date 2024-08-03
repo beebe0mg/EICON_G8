@@ -18,10 +18,82 @@
         android:textSize="30sp"
         android:textStyle="bold" />
 
-    <View
-        android:layout_width="0dp"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:background="#ece3ce"
+        android:padding="10dp">
+
+        <!-- 배경색 위에 올릴 이미지 -->
+        <ImageView
+            android:id="@+id/overlay_image1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/arrowleft"
+            android:scaleType="centerCrop"
+            android:contentDescription="Overlay1"/>
+
+        <ImageView
+            android:id="@+id/overlay_image2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/profilepic"
+            android:scaleType="centerCrop"
+            android:contentDescription="Overlay2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="120dp">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:src="@drawable/cpabutton"
+                android:layout_marginBottom="4dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Image 1"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:contentDescription="Image 2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ciabutton" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:src="@drawable/cfebutton"
+                android:layout_marginBottom="4dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Image 3"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/cfpbutton"
+                android:scaleType="centerCrop"
+                android:contentDescription="Image 4"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -79,5 +151,4 @@
             tools:ignore="UseAppTint"/>
 
     </LinearLayout>
-
 </LinearLayout>
