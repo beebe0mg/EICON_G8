@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <solid android:color="#00000000"/> &lt;!&ndash; 투명 배경 &ndash;&gt;-->
+    <corners android:radius="1300dp"/> <!-- 모서리 반경 설정 -->
+    <solid android:color="@color/black"/>
+</shape>

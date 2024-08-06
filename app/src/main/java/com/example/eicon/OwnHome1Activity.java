@@ -29,16 +29,35 @@ public class OwnHome1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(OwnHome1Activity.this, OwnHome2Activity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(intent);
             }
         });
 
+        ImageView menu_icon1 = findViewById(R.id.menu_icon1);
+        menu_icon1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHome1Activity.this, OwnHome1Activity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        ImageView menu_icon2 = findViewById(R.id.menu_icon2);
+        menu_icon2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHome1Activity.this, OwnExtra1Activity.class);
+                startActivity(intent);
+            }
+        });
 
         ImageView menu_icon3 = findViewById(R.id.menu_icon3);
         menu_icon3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnHome1Activity.this, OwnExtra1Activity.class);
+                Intent intent = new Intent(OwnHome1Activity.this, OwnHTE1Activity.class);
                 startActivity(intent);
             }
         });
@@ -47,9 +66,11 @@ public class OwnHome1Activity extends AppCompatActivity {
         menu_icon4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnHome1Activity.this, SettingActivity.class);
+                Intent intent = new Intent(OwnHome1Activity.this, OwnSettingActivity.class);
                 startActivity(intent);
             }
         });
+
+
     }
 }

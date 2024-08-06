@@ -9,9 +9,9 @@
     android:background="#ece3ce">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="80dp"
         android:background="#561c24"></LinearLayout>
-    <ScrollView
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/employeehome1" />
-    </ScrollView>
+    </FrameLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="90dp"

@@ -30,6 +30,44 @@ public class OwnHTE1Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(OwnHTE1Activity.this, OwnHome1Activity.class);
                 startActivity(intent);
+                finish();
+            }
+        });
+
+        ImageView menu_icon1 = findViewById(R.id.menu_icon1);
+        menu_icon1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHTE1Activity.this, OwnHome1Activity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        ImageView menu_icon2 = findViewById(R.id.menu_icon2);
+        menu_icon2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHTE1Activity.this, OwnExtra1Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView menu_icon3 = findViewById(R.id.menu_icon3);
+        menu_icon3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHTE1Activity.this, OwnHTE1Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView menu_icon4 = findViewById(R.id.menu_icon4);
+        menu_icon4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHTE1Activity.this, OwnSettingActivity.class);
+                startActivity(intent);
             }
         });
     }

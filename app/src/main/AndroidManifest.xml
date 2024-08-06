@@ -13,6 +13,9 @@
         android:theme="@style/Theme.EICON"
         tools:targetApi="31">
         <activity
+            android:name=".EmpOccu1Activity"
+            android:exported="false" />
+        <activity
             android:name=".EmpHome1Activity"
             android:exported="false" />
         <activity
@@ -32,94 +35,91 @@
             android:exported="false" />
         <activity
             android:name=".EmpCert1Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpCert2Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpCert3Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpCert4Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpTrain1Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpTrain2Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpTrain3Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpTrain4Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpTrain5Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpInten1Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpInten2Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpInten3Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpInten4Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpInten5Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
-            android:name=".EmpInten6Activity"
-            android:exported="false"/>
+            android:name=".EmpOccu1Activity"
+            android:exported="false" />
         <activity
-            android:name=".EmpInten7Activity"
-            android:exported="false"/>
+            android:name=".EmpOccu2Activity"
+            android:exported="false" />
         <activity
-            android:name=".EmpInten8Activity"
-            android:exported="false"/>
+            android:name=".EmpOccu3Activity"
+            android:exported="false" />
         <activity
-            android:name=".EmpInten9Activity"
-            android:exported="false"/>
+            android:name=".EmpOccu4Activity"
+            android:exported="false" />
         <activity
-            android:name=".EmpInten10Activity"
-            android:exported="false"/>
+            android:name=".OwnSettingActivity"
+            android:exported="false" />
         <activity
-            android:name=".SettingActivity"
-            android:exported="false"/>
-        <activity
-            android:name=".SwitchMenuActivity"
-            android:exported="false"/>
+            android:name=".OwnSwitchMenuActivity"
+            android:exported="false" />
         <activity
             android:name=".OwnHTE1Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".OwnHome1Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".OwnHome2Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".OwnReAp1Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".OwnReAp2Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".OwnReAp3Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpWPH1Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".EmpExtra1Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".OwnExtra1Activity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />

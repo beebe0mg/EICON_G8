@@ -6,12 +6,26 @@ import android.view.View;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
+import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-
+    private void exitProgram() {
+        moveTaskToBack(true);
+        finishAndRemoveTask();
+        System.exit(0);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        OnBackPressedCallback callback = new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                exitProgram();
+            }
+        };
+        getOnBackPressedDispatcher().addCallback(this, callback );
+
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);

@@ -30,6 +30,7 @@ public class EmpHome2Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(EmpHome2Activity.this, EmpCert1Activity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -39,6 +40,7 @@ public class EmpHome2Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(EmpHome2Activity.this, EmpTrain1Activity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -48,16 +50,27 @@ public class EmpHome2Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(EmpHome2Activity.this, EmpInten1Activity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
+        ImageView occu = findViewById(R.id.occu);
+        occu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpHome2Activity.this, EmpOccu1Activity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
         ImageView switch_menu = findViewById(R.id.switch_menu);
         switch_menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpHome2Activity.this, SwitchMenuActivity.class);
+                Intent intent = new Intent(EmpHome2Activity.this, OwnSwitchMenuActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -65,7 +78,55 @@ public class EmpHome2Activity extends AppCompatActivity {
         setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpHome2Activity.this, SettingActivity.class);
+                Intent intent = new Intent(EmpHome2Activity.this, OwnSettingActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        ImageView menu_icon1 = findViewById(R.id.menu_icon1);
+        menu_icon1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpHome2Activity.this, EmpHome1Activity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        ImageView menu_icon2 = findViewById(R.id.menu_icon2);
+        menu_icon2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpHome2Activity.this, EmpExtra1Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView menu_icon3 = findViewById(R.id.menu_icon3);
+        menu_icon3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpHome2Activity.this, EmpWPH1Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView menu_icon4 = findViewById(R.id.menu_icon4);
+        menu_icon4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpHome2Activity.this, OwnSettingActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView emp_home2 = findViewById(R.id.emp_home2);
+        emp_home2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpHome2Activity.this, EmpHome1Activity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(intent);
             }
         });

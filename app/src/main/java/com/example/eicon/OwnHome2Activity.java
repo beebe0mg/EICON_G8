@@ -33,11 +33,20 @@ public class OwnHome2Activity extends AppCompatActivity {
             }
         });
 
+        ImageView ReAp = findViewById(R.id.ReAp);
+        ReAp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHome2Activity.this, OwnReAp2Activity.class);
+                startActivity(intent);
+            }
+        });
+
         ImageView setting = findViewById(R.id.setting);
         setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnHome2Activity.this, SettingActivity.class);
+                Intent intent = new Intent(OwnHome2Activity.this, OwnSettingActivity.class);
                 startActivity(intent);
             }
         });
@@ -46,7 +55,55 @@ public class OwnHome2Activity extends AppCompatActivity {
         switch_menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnHome2Activity.this, SwitchMenuActivity.class);
+                Intent intent = new Intent(OwnHome2Activity.this, OwnSwitchMenuActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        ImageView own_home2 = findViewById(R.id.own_home2);
+        own_home2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHome2Activity.this, OwnHome1Activity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent);
+            }
+        });
+
+        ImageView menu_icon1 = findViewById(R.id.menu_icon1);
+        menu_icon1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHome2Activity.this, OwnHome1Activity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        ImageView menu_icon2 = findViewById(R.id.menu_icon2);
+        menu_icon2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHome2Activity.this, OwnExtra1Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView menu_icon3 = findViewById(R.id.menu_icon3);
+        menu_icon3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHome2Activity.this, OwnHTE1Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView menu_icon4 = findViewById(R.id.menu_icon4);
+        menu_icon4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHome2Activity.this, OwnSettingActivity.class);
                 startActivity(intent);
             }
         });

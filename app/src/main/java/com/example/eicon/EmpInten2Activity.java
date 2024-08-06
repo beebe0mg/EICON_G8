@@ -32,5 +32,42 @@ public class EmpInten2Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageView menu_icon1 = findViewById(R.id.menu_icon1);
+        menu_icon1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpInten2Activity.this, EmpHome1Activity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        ImageView menu_icon2 = findViewById(R.id.menu_icon2);
+        menu_icon2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpInten2Activity.this, EmpExtra1Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView menu_icon3 = findViewById(R.id.menu_icon3);
+        menu_icon3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpInten2Activity.this, EmpWPH1Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView menu_icon4 = findViewById(R.id.menu_icon4);
+        menu_icon4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpInten2Activity.this, OwnSettingActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

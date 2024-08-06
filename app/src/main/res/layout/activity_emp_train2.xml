@@ -9,23 +9,21 @@
     android:background="#ece3ce">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="80dp"
         android:background="#561c24"
-        android:paddingBottom="10dp"
         android:orientation="vertical"
-        android:gravity="center_horizontal|bottom">
+        android:gravity="center">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Results for:"
             android:textSize="25dp"
-            android:textColor="#fff"
-            android:textStyle="bold"/>
+            android:textColor="#fff"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Critical Thinking, Time Management"
-            android:textSize="20dp"
+            android:textSize="24dp"
             android:textColor="#fff"/>
     </LinearLayout>
     <LinearLayout

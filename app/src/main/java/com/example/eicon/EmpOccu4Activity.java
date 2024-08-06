@@ -11,24 +11,24 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class OwnReAp1Activity extends AppCompatActivity {
+public class EmpOccu4Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_own_reap1);
+        setContentView(R.layout.activity_emp_occu4);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        ImageView ownreap1activity = findViewById(R.id.ownreap1activity);
-        ownreap1activity.setOnClickListener(new View.OnClickListener() {
+        ImageView empoccu4activity = findViewById(R.id.empoccu4activity);
+        empoccu4activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnReAp1Activity.this, OwnReAp2Activity.class);
+                Intent intent = new Intent(EmpOccu4Activity.this, EmpHome1Activity.class);
                 startActivity(intent);
             }
         });
@@ -37,7 +37,7 @@ public class OwnReAp1Activity extends AppCompatActivity {
         menu_icon1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnReAp1Activity.this, OwnHome1Activity.class);
+                Intent intent = new Intent(EmpOccu4Activity.this, EmpHome1Activity.class);
                 startActivity(intent);
                 finish();
             }
@@ -47,7 +47,7 @@ public class OwnReAp1Activity extends AppCompatActivity {
         menu_icon2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnReAp1Activity.this, OwnExtra1Activity.class);
+                Intent intent = new Intent(EmpOccu4Activity.this, EmpExtra1Activity.class);
                 startActivity(intent);
             }
         });
@@ -56,7 +56,7 @@ public class OwnReAp1Activity extends AppCompatActivity {
         menu_icon3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnReAp1Activity.this, OwnHTE1Activity.class);
+                Intent intent = new Intent(EmpOccu4Activity.this, EmpWPH1Activity.class);
                 startActivity(intent);
             }
         });
@@ -65,7 +65,7 @@ public class OwnReAp1Activity extends AppCompatActivity {
         menu_icon4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnReAp1Activity.this, OwnSettingActivity.class);
+                Intent intent = new Intent(EmpOccu4Activity.this, OwnSettingActivity.class);
                 startActivity(intent);
             }
         });
