@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4"
+    android:background="#561c24">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#561c24"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ece3ce"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/overlay_image1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:contentDescription="Overlay1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arrowleft" />
+
+        <ImageView
+            android:id="@+id/overlay_image2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="Overlay2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profilepic" />
+
+        <TextView
+            android:id="@+id/center_text1"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/overlay_image1"
+            android:text="EMPLOYEE"
+            android:textSize="40dp"
+            android:textColor="#561c24"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/center_text2"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/center_text1"
+            android:text="Subject Courses"
+            android:textSize="30dp"
+            android:textColor="#561c24"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#561c24"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/menu_icon1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="House"
+            android:scaleType="centerInside"
+            android:src="@drawable/house"
+            android:tint="@android:color/white"
+            tools:ignore="UseAppTint" />
+
+        <ImageView
+            android:id="@+id/menu_icon2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="Book"
+            android:scaleType="centerInside"
+            android:src="@drawable/book"
+            android:tint="@android:color/white"
+            tools:ignore="UseAppTint" />
+
+        <ImageView
+            android:id="@+id/menu_icon3"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="Person"
+            android:scaleType="centerInside"
+            android:src="@drawable/person"
+            android:tint="@android:color/white"
+            tools:ignore="UseAppTint" />
+
+        <ImageView
+            android:id="@+id/menu_icon4"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="Gear"
+            android:scaleType="centerInside"
+            android:src="@drawable/gear"
+            android:tint="@android:color/white"
+            tools:ignore="UseAppTint" />
+
+    </LinearLayout>
+</LinearLayout>

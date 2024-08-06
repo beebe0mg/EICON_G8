@@ -10,7 +10,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="126dp"
+        android:layout_height="65dp"
         android:background="#561c24"
         android:gravity="center"
         android:text="@string/cpa"

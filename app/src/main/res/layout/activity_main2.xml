@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".MainActivity2">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="126dp"
+        android:layout_height="72dp"
         android:background="#561c24"
         android:gravity="center"
         android:text="@string/Accounting"
@@ -46,8 +46,8 @@
 
         <!-- FrameLayout으로 감싸서 LinearLayout을 하단에 배치 -->
         <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true">
 
             <LinearLayout
@@ -60,9 +60,8 @@
                 <!-- 각 ImageView를 FrameLayout으로 감싸서 중앙 배치 -->
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:gravity="center"> <!-- 중앙 정렬 -->
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"> <!-- 중앙 정렬 -->
 
                     <ImageView
                         android:id="@+id/image1"
@@ -76,8 +75,7 @@
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
                     android:gravity="center"> <!-- 중앙 정렬 -->
 
                     <ImageView
