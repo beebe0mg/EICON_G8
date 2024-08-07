@@ -13,20 +13,36 @@
         android:background="#561c24">
 
     </LinearLayout>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:fillViewport="true"
-        android:scrollbars="none">
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="0dp"
+            android:layout_weight="1">
             <ImageView
                 android:id="@+id/emp_home2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:src="@drawable/employeehome1"/>
+            <ImageView
+                android:id="@+id/accounting"
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:src="@drawable/accounting"
+                android:layout_marginTop="260dp"
+                android:layout_marginStart="30dp"/>
+            <ImageView
+                android:id="@+id/seemore"
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:src="@drawable/seemore"
+                android:layout_marginTop="260dp"
+                android:layout_marginStart="210dp"/>
+            <ImageView
+                android:id="@+id/cpa"
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:src="@drawable/cpa"
+                android:layout_marginTop="435dp"
+                android:layout_marginStart="30dp"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -35,50 +51,52 @@
                 android:layout_marginTop="-35dp"
                 android:layout_marginStart="60dp">
                 <ImageView
+                    android:layout_marginTop="30dp"
                     android:id="@+id/cert"
                     android:layout_width="200dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="60dp"
                     android:src="@drawable/emphomemenu1"/>
+
                 <ImageView
                     android:id="@+id/train"
                     android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/emphomemenu2"
-                    android:layout_marginTop="-53dp"/>
+                    android:layout_height="49dp"
+                    android:src="@drawable/emphomemenu2" />
                 <ImageView
                     android:id="@+id/inten"
                     android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/emphomemenu3"
-                    android:layout_marginTop="-49dp"/>
+                    android:layout_height="52dp"
+                    android:src="@drawable/emphomemenu3"/>
                 <ImageView
-                    android:id="@+id/occu"
                     android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/emphomemenu4"
-                    android:layout_marginTop="-53dp"/>
+                    android:layout_height="57dp"
+                    android:src="@drawable/emphomemenu4"/>
                 <ImageView
                     android:id="@+id/setting"
                     android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/emphomemenu5"
-                    android:layout_marginTop="-58dp"/>
+                    android:layout_height="63.5dp"
+                    android:src="@drawable/emphomemenu5"/>
                 <ImageView
                     android:id="@+id/switch_menu"
                     android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/emphomemenu6"
-                    android:layout_marginTop="-56dp"/>
+                    android:layout_height="51dp"
+                    android:src="@drawable/emphomemenu6"/>
                 <ImageView
                     android:id="@+id/blanck"
                     android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/emphomemenu7"
-                    android:layout_marginTop="-35dp"/>
+                    android:layout_height="20dp"
+                    android:src="@drawable/emphomemenu7"/>
             </LinearLayout>
+            <ImageView
+                android:layout_marginTop="162dp"
+                android:layout_marginStart="100dp"
+                android:layout_width="140dp"
+                android:layout_height="38dp"
+                android:id="@+id/occu"
+                android:src="@drawable/occupation"/>
+
 
         </FrameLayout>
-    </ScrollView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="90dp"

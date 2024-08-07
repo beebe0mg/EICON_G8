@@ -65,7 +65,7 @@ public class EmpOccu3Activity extends AppCompatActivity {
         menu_icon4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpOccu3Activity.this, OwnSettingActivity.class);
+                Intent intent = new Intent(EmpOccu3Activity.this, EmpSettingActivity.class);
                 startActivity(intent);
             }
         });

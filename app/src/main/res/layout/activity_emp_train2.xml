@@ -23,18 +23,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Critical Thinking, Time Management"
-            android:textSize="24dp"
+            android:textSize="18dp"
             android:textColor="#fff"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        <ImageView
-            android:id="@+id/emptrain2activity"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/emptrain2activity"/>
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/emptrain2activity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/emptrain2activity"/>
+            <ImageView
+                android:id="@+id/emptrain2activity_bottom"
+                android:layout_width="370dp"
+                android:layout_height="270dp"
+                android:src="@drawable/jaywalker"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="100dp"/>
+        </FrameLayout>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

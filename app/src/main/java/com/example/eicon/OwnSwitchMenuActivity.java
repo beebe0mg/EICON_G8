@@ -28,7 +28,7 @@ public class OwnSwitchMenuActivity extends AppCompatActivity {
         menu_icon1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnSwitchMenuActivity.this, EmpHome1Activity.class);
+                Intent intent = new Intent(OwnSwitchMenuActivity.this, OwnHome1Activity.class);
                 startActivity(intent);
                 finish();
             }
@@ -38,7 +38,7 @@ public class OwnSwitchMenuActivity extends AppCompatActivity {
         menu_icon2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnSwitchMenuActivity.this, EmpExtra1Activity.class);
+                Intent intent = new Intent(OwnSwitchMenuActivity.this, OwnExtra1Activity.class);
                 startActivity(intent);
             }
         });
@@ -47,7 +47,7 @@ public class OwnSwitchMenuActivity extends AppCompatActivity {
         menu_icon3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnSwitchMenuActivity.this, EmpWPH1Activity.class);
+                Intent intent = new Intent(OwnSwitchMenuActivity.this, OwnHTE1Activity.class);
                 startActivity(intent);
             }
         });

@@ -24,7 +24,7 @@ public class OwnHTE1Activity extends AppCompatActivity {
             return insets;
         });
 
-        ImageView own1activity = findViewById(R.id.own1activity);
+        ImageView own1activity = findViewById(R.id.ownhte1activity_button);
         own1activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

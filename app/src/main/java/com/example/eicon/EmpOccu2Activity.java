@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,7 +25,7 @@ public class EmpOccu2Activity extends AppCompatActivity {
             return insets;
         });
 
-        ImageView empoccu2activity = findViewById(R.id.empoccu2activity);
+        RelativeLayout empoccu2activity = findViewById(R.id.empoccu2activity_button);
         empoccu2activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,7 +66,7 @@ public class EmpOccu2Activity extends AppCompatActivity {
         menu_icon4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpOccu2Activity.this, OwnSettingActivity.class);
+                Intent intent = new Intent(EmpOccu2Activity.this, EmpSettingActivity.class);
                 startActivity(intent);
             }
         });

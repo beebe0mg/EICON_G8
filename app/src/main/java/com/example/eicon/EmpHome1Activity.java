@@ -51,6 +51,33 @@ public class EmpHome1Activity extends AppCompatActivity {
             }
         });
 
+        ImageView accounting = findViewById(R.id.accounting);
+        accounting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpHome1Activity.this, EmpCert1Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView seemore = findViewById(R.id.seemore);
+        seemore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpHome1Activity.this, EmpCert11Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView cpa = findViewById(R.id.cpa);
+        cpa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EmpHome1Activity.this, EmpCert2Activity.class);
+                startActivity(intent);
+            }
+        });
+
         ImageView menu_icon1 = findViewById(R.id.menu_icon1);
         menu_icon1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -83,7 +110,7 @@ public class EmpHome1Activity extends AppCompatActivity {
         menu_icon4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpHome1Activity.this, OwnSettingActivity.class);
+                Intent intent = new Intent(EmpHome1Activity.this, EmpSettingActivity.class);
                 startActivity(intent);
             }
         });

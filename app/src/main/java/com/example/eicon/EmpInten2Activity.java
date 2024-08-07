@@ -24,7 +24,7 @@ public class EmpInten2Activity extends AppCompatActivity {
             return insets;
         });
 
-        ImageView empinten2activity = findViewById(R.id.empinten2activity);
+        ImageView empinten2activity = findViewById(R.id.empinten2activity_button);
         empinten2activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,7 +65,7 @@ public class EmpInten2Activity extends AppCompatActivity {
         menu_icon4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpInten2Activity.this, OwnSettingActivity.class);
+                Intent intent = new Intent(EmpInten2Activity.this, EmpSettingActivity.class);
                 startActivity(intent);
             }
         });

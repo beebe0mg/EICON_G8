@@ -31,16 +31,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/empoccu1activity" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="46dp"
+                android:layout_marginEnd="4dp">
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="290dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:background="#fff"
+                    android:textSize="18dp"/>
+                <ImageView
+                    android:id="@+id/empoccu1activity_button"
+                    android:layout_width="110dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/browse"
+                    android:layout_gravity="center|end"/>
+            </LinearLayout>
 
-            <Spinner
-                android:id="@+id/spinner"
-                android:layout_width="280dp"
-                android:layout_height="39dp"
-                android:layout_gravity="center_vertical"
-                android:layout_marginTop="47dp"
-                android:layout_marginStart="10dp"
-                android:background="#fff"
-                android:textSize="20dp"/>
         </FrameLayout>
 
     <LinearLayout

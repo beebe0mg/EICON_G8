@@ -29,6 +29,7 @@ public class EmpCert4Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(EmpCert4Activity.this, EmpHome1Activity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(intent);
             }
         });
@@ -65,7 +66,7 @@ public class EmpCert4Activity extends AppCompatActivity {
         menu_icon4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpCert4Activity.this, OwnSettingActivity.class);
+                Intent intent = new Intent(EmpCert4Activity.this, EmpSettingActivity.class);
                 startActivity(intent);
             }
         });

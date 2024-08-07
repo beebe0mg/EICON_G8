@@ -23,11 +23,24 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        <ImageView
-            android:id="@+id/empinten1activity"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/empinten1activity"/>
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/empinten1activity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/empinten1activity"/>
+            <ImageView
+                android:id="@+id/empinten1activity_button"
+                android:layout_width="310dp"
+                android:layout_height="63dp"
+                android:src="@drawable/administration"
+                android:layout_gravity="center"
+                android:layout_marginTop="-110dp"
+                android:background="@drawable/administration_button"/>
+        </FrameLayout>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

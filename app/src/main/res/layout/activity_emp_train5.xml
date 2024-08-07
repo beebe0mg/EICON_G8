@@ -24,11 +24,31 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="#989488">
-        <ImageView
-            android:id="@+id/emptrain5activity"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/emptrain5activity"/>
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/emptrain5activity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/emptrain5activity"/>
+            <ImageView
+                android:id="@+id/emptrain5activity_button"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:src="@drawable/send"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="201dp"/>
+            <Spinner
+                android:layout_marginTop="310dp"
+                android:layout_marginStart="208dp"
+                android:id="@+id/spinner"
+                android:layout_width="180dp"
+                android:layout_height="32dp"
+                android:background="#BEBEBE"
+                android:textSize="30dp"/>
+        </FrameLayout>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

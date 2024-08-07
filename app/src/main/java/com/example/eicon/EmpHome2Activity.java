@@ -28,7 +28,7 @@ public class EmpHome2Activity extends AppCompatActivity {
         cert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpHome2Activity.this, EmpCert1Activity.class);
+                Intent intent = new Intent(EmpHome2Activity.this, EmpCert11Activity.class);
                 startActivity(intent);
                 finish();
             }
@@ -68,7 +68,7 @@ public class EmpHome2Activity extends AppCompatActivity {
         switch_menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpHome2Activity.this, OwnSwitchMenuActivity.class);
+                Intent intent = new Intent(EmpHome2Activity.this, EmpSwitchMenuActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -116,7 +116,7 @@ public class EmpHome2Activity extends AppCompatActivity {
         menu_icon4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpHome2Activity.this, OwnSettingActivity.class);
+                Intent intent = new Intent(EmpHome2Activity.this, EmpSettingActivity.class);
                 startActivity(intent);
             }
         });

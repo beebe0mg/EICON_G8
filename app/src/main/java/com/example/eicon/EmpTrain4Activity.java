@@ -24,7 +24,7 @@ public class EmpTrain4Activity extends AppCompatActivity {
             return insets;
         });
 
-        ImageView emptrain4activity = findViewById(R.id.emptrain4activity);
+        ImageView emptrain4activity = findViewById(R.id.emptrain4activity_button);
         emptrain4activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

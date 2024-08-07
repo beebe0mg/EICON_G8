@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#989488">
+        android:background="#A8A192">
         <ImageView
             android:id="@+id/empcert4activity"
             android:layout_width="match_parent"

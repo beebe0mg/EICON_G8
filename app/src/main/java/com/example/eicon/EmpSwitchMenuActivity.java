@@ -28,7 +28,7 @@ public class EmpSwitchMenuActivity extends AppCompatActivity {
         menu_icon1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpSwitchMenuActivity.this, OwnHome1Activity.class);
+                Intent intent = new Intent(EmpSwitchMenuActivity.this, EmpHome1Activity.class);
                 startActivity(intent);
                 finish();
             }
@@ -38,7 +38,7 @@ public class EmpSwitchMenuActivity extends AppCompatActivity {
         menu_icon2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpSwitchMenuActivity.this, OwnExtra1Activity.class);
+                Intent intent = new Intent(EmpSwitchMenuActivity.this, EmpExtra1Activity.class);
                 startActivity(intent);
             }
         });
@@ -47,7 +47,7 @@ public class EmpSwitchMenuActivity extends AppCompatActivity {
         menu_icon3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpSwitchMenuActivity.this, OwnHTE1Activity.class);
+                Intent intent = new Intent(EmpSwitchMenuActivity.this, EmpWPH1Activity.class);
                 startActivity(intent);
             }
         });
@@ -56,7 +56,7 @@ public class EmpSwitchMenuActivity extends AppCompatActivity {
         menu_icon4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpSwitchMenuActivity.this, OwnSettingActivity.class);
+                Intent intent = new Intent(EmpSwitchMenuActivity.this, EmpSettingActivity.class);
                 startActivity(intent);
             }
         });

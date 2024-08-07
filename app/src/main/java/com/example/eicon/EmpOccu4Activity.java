@@ -24,7 +24,7 @@ public class EmpOccu4Activity extends AppCompatActivity {
             return insets;
         });
 
-        ImageView empoccu4activity = findViewById(R.id.empoccu4activity);
+        ImageView empoccu4activity = findViewById(R.id.empoccu4activity_button);
         empoccu4activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,7 +65,7 @@ public class EmpOccu4Activity extends AppCompatActivity {
         menu_icon4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpOccu4Activity.this, OwnSettingActivity.class);
+                Intent intent = new Intent(EmpOccu4Activity.this, EmpSettingActivity.class);
                 startActivity(intent);
             }
         });

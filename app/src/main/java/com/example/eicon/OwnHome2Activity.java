@@ -55,7 +55,7 @@ public class OwnHome2Activity extends AppCompatActivity {
         switch_menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnHome2Activity.this, OwnSwitchMenuActivity.class);
+                Intent intent = new Intent(OwnHome2Activity.this, EmpSwitchMenuActivity.class);
                 startActivity(intent);
             }
         });

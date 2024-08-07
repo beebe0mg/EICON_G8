@@ -21,6 +21,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/employeehome1" />
+        <ImageView
+            android:id="@+id/accounting"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:src="@drawable/accounting"
+            android:layout_marginTop="260dp"
+            android:layout_marginStart="30dp"/>
+        <ImageView
+            android:id="@+id/seemore"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:src="@drawable/seemore"
+            android:layout_marginTop="260dp"
+            android:layout_marginStart="210dp"/>
+        <ImageView
+            android:id="@+id/cpa"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:src="@drawable/cpa"
+            android:layout_marginTop="435dp"
+            android:layout_marginStart="30dp"/>
     </FrameLayout>
     <LinearLayout
         android:layout_width="match_parent"

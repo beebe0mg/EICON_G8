@@ -92,6 +92,12 @@
                     android:backgroundTint="@android:color/black"/>
 
             </LinearLayout>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="60dp"
+                android:src="@drawable/paybutton"
+                android:layout_gravity="center|bottom"/>
         </FrameLayout>
     </LinearLayout>
     <LinearLayout

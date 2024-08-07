@@ -30,11 +30,23 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        <ImageView
-            android:id="@+id/empinten4activity"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/empinten4activity"/>
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/empinten4activity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/empinten4activity"/>
+            <ImageView
+                android:id="@+id/empinten4activity_button"
+                android:layout_width="210dp"
+                android:layout_height="60dp"
+                android:src="@drawable/confirm"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="60dp"/>
+        </FrameLayout>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

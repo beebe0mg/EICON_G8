@@ -3,7 +3,9 @@ package com.example.eicon;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.Spinner;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,7 +26,7 @@ public class EmpTrain5Activity extends AppCompatActivity {
             return insets;
         });
 
-        ImageView emptrain5activity = findViewById(R.id.emptrain5activity);
+        ImageView emptrain5activity = findViewById(R.id.emptrain5activity_button);
         emptrain5activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -69,5 +71,11 @@ public class EmpTrain5Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Spinner spinner = findViewById(R.id.spinner);
+        String[] items = {"Rapid Growth", "Numerous Job Openings", "New and Emerging", "All Bright Outlook Options"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, items);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
     }
 }

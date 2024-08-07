@@ -24,7 +24,7 @@ public class EmpCert1Activity extends AppCompatActivity {
             return insets;
         });
 
-        ImageView empcert1activity = findViewById(R.id.empcert1activity);
+        ImageView empcert1activity = findViewById(R.id.empcert1activity_button);
         empcert1activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,7 +65,7 @@ public class EmpCert1Activity extends AppCompatActivity {
         menu_icon4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpCert1Activity.this, OwnSettingActivity.class);
+                Intent intent = new Intent(EmpCert1Activity.this, EmpSettingActivity.class);
                 startActivity(intent);
             }
         });

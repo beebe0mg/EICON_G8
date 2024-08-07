@@ -24,11 +24,24 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="#989488">
-        <ImageView
-            android:id="@+id/empinten2activity"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/empinten2activity"/>
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/empinten2activity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/empinten2activity"/>
+            <ImageView
+                android:id="@+id/empinten2activity_button"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/allow"
+                android:layout_gravity="center"
+                android:layout_marginTop="47dp"
+                android:layout_marginStart="110dp"/>
+        </FrameLayout>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

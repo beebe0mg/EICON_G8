@@ -23,11 +23,23 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        <ImageView
-            android:id="@+id/empcert1activity"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/empcert1activity"/>
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/empcert1activity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/empcert1activity"/>
+            <ImageView
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/empcert1activity_button"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:src="@drawable/cpa_button"/>
+        </FrameLayout>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
