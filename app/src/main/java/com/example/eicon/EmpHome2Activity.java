@@ -78,7 +78,7 @@ public class EmpHome2Activity extends AppCompatActivity {
         setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(EmpHome2Activity.this, OwnSettingActivity.class);
+                Intent intent = new Intent(EmpHome2Activity.this, EmpSettingActivity.class);
                 startActivity(intent);
                 finish();
             }

@@ -47,7 +47,7 @@ public class OwnExtra1Activity extends AppCompatActivity {
         menu_icon2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnExtra1Activity.this, EmpExtra1Activity.class);
+                Intent intent = new Intent(OwnExtra1Activity.this, OwnExtra1Activity.class);
                 startActivity(intent);
             }
         });
@@ -56,7 +56,7 @@ public class OwnExtra1Activity extends AppCompatActivity {
         menu_icon3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnExtra1Activity.this, EmpWPH1Activity.class);
+                Intent intent = new Intent(OwnExtra1Activity.this, OwnHTE1Activity.class);
                 startActivity(intent);
             }
         });

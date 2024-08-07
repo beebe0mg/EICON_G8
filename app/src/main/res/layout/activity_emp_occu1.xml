@@ -33,6 +33,8 @@
                 android:src="@drawable/empoccu1activity" />
             <LinearLayout
                 android:layout_width="match_parent"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -40,7 +42,7 @@
                 android:layout_marginEnd="4dp">
                 <Spinner
                     android:id="@+id/spinner"
-                    android:layout_width="290dp"
+                    android:layout_width="250dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="10dp"
@@ -48,7 +50,7 @@
                     android:textSize="18dp"/>
                 <ImageView
                     android:id="@+id/empoccu1activity_button"
-                    android:layout_width="110dp"
+                    android:layout_width="100dp"
                     android:layout_height="60dp"
                     android:src="@drawable/browse"
                     android:layout_gravity="center|end"/>

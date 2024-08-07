@@ -24,7 +24,7 @@ public class EmpOccu3Activity extends AppCompatActivity {
             return insets;
         });
 
-        ImageView empoccu3activity = findViewById(R.id.empoccu3activity);
+        ImageView empoccu3activity = findViewById(R.id.empoccu3activity_button);
         empoccu3activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

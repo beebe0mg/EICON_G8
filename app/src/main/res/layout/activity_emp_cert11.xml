@@ -26,11 +26,11 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/empcert11activity"/>
             <ImageView
-                android:layout_marginTop="200dp"
-                android:layout_marginStart="10dp"
+                android:layout_marginTop="168dp"
+                android:layout_marginStart="16dp"
                 android:id="@+id/empcert11activity_button"
-                android:layout_width="170dp"
-                android:layout_height="170dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:src="@drawable/accounting"/>
         </FrameLayout>
 

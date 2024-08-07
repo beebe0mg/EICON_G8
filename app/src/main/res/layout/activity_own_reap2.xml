@@ -30,11 +30,23 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        <ImageView
-            android:id="@+id/ownreap2activitiy"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/ownreap2activity"/>
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/ownreap2activitiy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ownreap2activity"/>
+            <ImageView
+                android:id="@+id/ownreap2activitiy_button"
+                android:layout_width="240dp"
+                android:layout_height="80dp"
+                android:src="@drawable/proceed"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="60dp"/>
+        </FrameLayout>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

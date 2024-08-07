@@ -24,7 +24,7 @@ public class OwnReAp2Activity extends AppCompatActivity {
             return insets;
         });
 
-        ImageView ownreap2activity = findViewById(R.id.ownreap2activitiy);
+        ImageView ownreap2activity = findViewById(R.id.ownreap2activitiy_button);
         ownreap2activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

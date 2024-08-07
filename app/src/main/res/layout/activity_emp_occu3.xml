@@ -24,11 +24,24 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        <ImageView
-            android:id="@+id/empoccu3activity"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/empoccu3activity"/>
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/empoccu3activity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/empoccu3activity"/>
+            <ImageView
+                android:id="@+id/empoccu3activity_button"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/indinerologo"
+                android:layout_marginBottom="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_gravity="bottom"/>
+        </FrameLayout>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
