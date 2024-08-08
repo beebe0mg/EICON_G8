@@ -73,7 +73,7 @@ public class EmpTrain5Activity extends AppCompatActivity {
         });
 
         Spinner spinner = findViewById(R.id.spinner);
-        String[] items = {"Rapid Growth", "Numerous Job Openings", "New and Emerging", "All Bright Outlook Options"};
+        String[] items = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, items);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
