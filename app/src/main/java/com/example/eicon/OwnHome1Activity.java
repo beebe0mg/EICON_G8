@@ -3,6 +3,7 @@ package com.example.eicon;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
@@ -39,12 +40,30 @@ public class OwnHome1Activity extends AppCompatActivity {
             return insets;
         });
 
-        ImageView ownhome1activity = findViewById(R.id.ownhome1activity);
+        Button ownhome1activity = findViewById(R.id.ownhome1activity);
         ownhome1activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(OwnHome1Activity.this, OwnHome2Activity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent);
+            }
+        });
+
+        ImageView ownhome1activity_button1 = findViewById(R.id.ownhome1activity_button1);
+        ownhome1activity_button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHome1Activity.this, OwnReAp2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView ownhome1activity_button2 = findViewById(R.id.ownhome1activity_button2);
+        ownhome1activity_button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OwnHome1Activity.this, OwnReAp1Activity.class);
                 startActivity(intent);
             }
         });

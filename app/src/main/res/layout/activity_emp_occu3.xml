@@ -34,8 +34,8 @@
                 android:src="@drawable/empoccu3activity"/>
             <ImageView
                 android:id="@+id/empoccu3activity_button"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:src="@drawable/indinerologo"
                 android:layout_marginBottom="30dp"
                 android:layout_marginStart="20dp"

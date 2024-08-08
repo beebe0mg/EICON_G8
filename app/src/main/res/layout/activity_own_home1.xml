@@ -21,12 +21,34 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
-                android:id="@+id/ownhome1activity"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ownhome1activity"/>
+                android:src="@drawable/ownhome11activity"/>
 
-
+            <ImageView
+                android:id="@+id/ownhome1activity_button1"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@drawable/micheal"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="190dp"
+                android:layout_marginStart="20dp"/>
+            <ImageView
+                android:id="@+id/ownhome1activity_button2"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/accountanticon"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="20dp"/>
+            <Button
+                android:id="@+id/ownhome1activity"
+                android:layout_marginStart="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:text=""
+                android:contentDescription="list"/>
 
         </FrameLayout>
 

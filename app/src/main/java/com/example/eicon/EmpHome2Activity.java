@@ -3,6 +3,7 @@ package com.example.eicon;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
@@ -121,7 +122,7 @@ public class EmpHome2Activity extends AppCompatActivity {
             }
         });
 
-        ImageView emp_home2 = findViewById(R.id.emp_home2);
+        Button emp_home2 = findViewById(R.id.emp_home2);
         emp_home2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

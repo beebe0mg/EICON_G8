@@ -40,11 +40,11 @@
                 android:src="@drawable/ownreap1activity"/>
             <ImageView
                 android:id="@+id/ownreap1activity_button"
-                android:layout_width="370dp"
-                android:layout_height="300dp"
+                android:layout_width="340dp"
+                android:layout_height="260dp"
                 android:src="@drawable/reap1"
                 android:layout_gravity="center|top"
-                android:layout_marginTop="100dp"/>
+                android:layout_marginTop="80dp"/>
         </FrameLayout>
 
     </LinearLayout>

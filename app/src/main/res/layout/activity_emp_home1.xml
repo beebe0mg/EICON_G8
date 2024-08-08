@@ -17,7 +17,6 @@
         android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/employeehome1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/employeehome1" />
@@ -42,6 +41,15 @@
             android:src="@drawable/cpa"
             android:layout_marginTop="435dp"
             android:layout_marginStart="30dp"/>
+
+        <Button
+            android:id="@+id/employeehome1"
+            android:layout_marginStart="30dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:contentDescription="list"/>
     </FrameLayout>
     <LinearLayout
         android:layout_width="match_parent"

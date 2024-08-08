@@ -37,7 +37,7 @@ public class OwnExtra1Activity extends AppCompatActivity {
         menu_icon1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnExtra1Activity.this, EmpHome1Activity.class);
+                Intent intent = new Intent(OwnExtra1Activity.this, OwnHome1Activity.class);
                 startActivity(intent);
                 finish();
             }
