@@ -11,6 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+
 //이소리(leesori1410)
 
 public class EmpCert11Activity extends AppCompatActivity {
