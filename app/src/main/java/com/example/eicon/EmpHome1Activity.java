@@ -14,7 +14,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 
-
+//이소리(leesori1410)
 public class EmpHome1Activity extends AppCompatActivity {
 
     private void exitProgram() {

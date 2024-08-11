@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import androidx.activity.EdgeToEdge;
 import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
-
+//이소리(leesori1410)
 public class MainActivity extends AppCompatActivity {
     private void exitProgram() {
         moveTaskToBack(true);

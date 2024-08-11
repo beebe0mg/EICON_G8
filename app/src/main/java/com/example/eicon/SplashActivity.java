@@ -6,7 +6,7 @@ import android.os.Handler;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-
+//이소리(leesori1410)
 public class SplashActivity extends AppCompatActivity {
 
     @Override
