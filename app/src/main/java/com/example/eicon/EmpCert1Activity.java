@@ -1,5 +1,6 @@
-package com.example.eicon;
+//정상미(beebeOmg)
 
+package com.example.eicon;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
